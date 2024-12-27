@@ -1,0 +1,138 @@
+#landing {
+  background-image: url("../imgs/bg-masthead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  color: white;
+  text-align: center;
+}
+nav {
+  background-color: transparent;
+  transition: all ease-in-out 0.4s;
+}
+.navbar-brand {
+  color: rgba(255, 255, 255, 0.735) !important;
+}
+.overlay-beige {
+  background-color: rgba(92, 77, 66, 0.8);
+  height: 100%;
+}
+.content p {
+  color: rgba(255, 255, 255, 0.785);
+}
+.overlay-beige .content {
+  padding: 0 20rem;
+}
+.content-title {
+  position: relative;
+  margin: 0 0 40px 0;
+}
+.content-title::after {
+  content: "";
+  width: 2.5rem;
+  height: 2px;
+  background-color: #f4623a;
+  left: 50%;
+  bottom: -25px;
+  transform: translateX(-50%);
+  position: absolute;
+}
+.orange-btn {
+  margin: 20px 0 0 0;
+  border-radius: 20px;
+  padding: 11px 17px;
+  text-transform: uppercase;
+  font-size: 13px;
+  border: none;
+  background-color: #f4623a;
+  color: white;
+  font-weight: bold;
+}
+#about {
+  background-color: #f4623a;
+  padding: 6rem 0;
+  color: white;
+  text-align: center;
+}
+.header-content {
+  position: relative;
+  margin: 0 0 30px 0;
+}
+.header-content::after {
+  content: "";
+  width: 3.5rem;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#about p {
+  color: rgba(255, 255, 255, 0.785);
+}
+#services {
+  padding: 6rem 0;
+}
+#services .icon {
+  color: #f4623a;
+}
+#services .content {
+  margin: 5rem 0 0 0;
+}
+#services .title {
+  position: relative;
+}
+#services .title::after {
+  content: "";
+  width: 3.5rem;
+  height: 3px;
+  background-color: red;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#portfolio .orange-overlay {
+  background-color: #f4623ace;
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+#portfolio .orange-overlay p {
+  margin: 0 0 5px 0 !important;
+}
+.orange-overlay:hover {
+  opacity: 1 !important;
+}
+#portfolio .content {
+  padding: 7rem 0;
+}
+#contact .title {
+  position: relative;
+  margin: 0 0 2rem 0;
+}
+#contact .title::after {
+  content: "";
+  width: 3.5rem;
+  height: 3px;
+  background-color: #f4623a;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#contact {
+  padding: 6rem 0;
+}
+.bg-nav {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.91) 0 0 5px;
+}
+.bg-nav a {
+  color: rgba(39, 39, 39, 0.823) !important ;
+}
